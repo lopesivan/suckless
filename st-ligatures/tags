@@ -1,0 +1,233 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/7492b90/
+-0,0 +1,136	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -0,0 +1,136 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,136	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -0,0 +1,136 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,136	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -0,0 +1,136 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,136	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -0,0 +1,136 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,136	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -0,0 +1,136 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,136	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -0,0 +1,136 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,136	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -0,0 +1,136 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,136	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -0,0 +1,136 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,140	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -0,0 +1,140 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,140	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -0,0 +1,140 @@$/;"	h	newFile:b/hb.c
+-0,0 +1,7	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-0,0 +1,7	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-0,0 +1,7	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-0,0 +1,7	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-0,0 +1,7	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-0,0 +1,7	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-0,0 +1,7	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-0,0 +1,7	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-0,0 +1,7	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-0,0 +1,7	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -0,0 +1,7 @@$/;"	h	newFile:b/hb.h
+-1031,6 +1032,9	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -1031,6 +1032,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-1031,6 +1032,9	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -1031,6 +1032,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-1031,6 +1032,9	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -1031,6 +1032,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-1031,6 +1032,9	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -1031,6 +1032,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-1031,6 +1032,9	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -1031,6 +1032,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-1031,6 +1032,9	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -1031,6 +1032,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-1031,6 +1032,9	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -1031,6 +1032,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-1040,6 +1041,9	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -1040,6 +1041,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-1040,6 +1041,9	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -1040,6 +1041,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-1040,6 +1041,9	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -1040,6 +1041,9 @@ xunloadfont(Font *f)$/;"	h	modifiedFile:a/x.c
+-11,7 +11,8	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-11,7 +11,8	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-11,7 +11,8	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-11,7 +11,8	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-11,7 +11,8	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-11,7 +11,8	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-11,7 +11,8	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-11,7 +11,8	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-11,7 +11,8	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-11,7 +11,8	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -11,7 +11,8 @@$/;"	h	modifiedFile:a/st.h
+-1229,7 +1233,7	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -1229,7 +1233,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1229,7 +1233,7	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -1229,7 +1233,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1229,7 +1233,7	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -1229,7 +1233,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1229,7 +1233,7	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -1229,7 +1233,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1229,7 +1233,7	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -1229,7 +1233,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1229,7 +1233,7	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -1229,7 +1233,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1231,7 +1235,7	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -1231,7 +1235,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1246,7 +1250,7	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -1246,7 +1250,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1246,7 +1250,7	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -1246,7 +1250,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1246,7 +1250,7	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -1246,7 +1250,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1336,6 +1340,9	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -1336,6 +1340,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1336,6 +1340,9	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -1336,6 +1340,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1336,6 +1340,9	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -1336,6 +1340,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1336,6 +1340,9	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -1336,6 +1340,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1336,6 +1340,9	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -1336,6 +1340,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1336,6 +1340,9	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -1336,6 +1340,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1343,6 +1347,9	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -1343,6 +1347,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1353,6 +1357,9	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -1353,6 +1357,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1353,6 +1357,9	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -1353,6 +1357,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1353,6 +1357,9	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -1353,6 +1357,9 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len,/;"	h	modifiedFile:a/x.c
+-1485,14 +1492,17	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -1485,14 +1492,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-1485,14 +1492,17	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -1485,14 +1492,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-1485,14 +1492,17	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -1485,14 +1492,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-1485,14 +1492,17	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -1485,14 +1492,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-1485,14 +1492,17	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -1485,14 +1492,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-1485,14 +1492,17	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -1485,14 +1492,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-1496,14 +1503,17	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -1496,14 +1503,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-15,10 +15,12	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-15,10 +15,12	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-15,10 +15,12	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-15,10 +15,12	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-15,10 +15,12	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-15,10 +15,12	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-15,10 +15,12	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-15,10 +15,12	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-15,10 +15,12	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-15,10 +15,12	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -15,10 +15,12 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-1502,14 +1509,17	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -1502,14 +1509,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-1502,14 +1509,17	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -1502,14 +1509,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-1502,14 +1509,17	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -1502,14 +1509,17 @@ xdrawglyph(Glyph g, int x, int y)$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -19,6 +19,7 @@ char *argv0;$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -19,6 +19,7 @@ char *argv0;$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -19,6 +19,7 @@ char *argv0;$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -19,6 +19,7 @@ char *argv0;$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -19,6 +19,7 @@ char *argv0;$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -19,6 +19,7 @@ static char *argv0;$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -19,6 +19,7 @@ static char *argv0;$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -19,6 +19,7 @@ static char *argv0;$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -19,6 +19,7 @@ static char *argv0;$/;"	h	modifiedFile:a/x.c
+-19,6 +19,7	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -19,6 +19,7 @@ static char *argv0;$/;"	h	modifiedFile:a/x.c
+-22,7 +22,8	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-22,7 +22,8	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-22,7 +22,8	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-22,7 +22,8	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-22,7 +22,8	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-22,7 +22,8	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-22,7 +22,8	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-22,7 +22,8	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-22,7 +22,8	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-22,7 +22,8	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -22,7 +22,8 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-25,7 +25,7	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-25,7 +25,7	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-25,7 +25,7	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-25,7 +25,7	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-25,7 +25,7	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-25,7 +25,7	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-25,7 +25,7	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-25,7 +25,7	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-25,7 +25,7	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-25,7 +25,7	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -25,7 +25,7 @@ enum win_mode {$/;"	h	modifiedFile:a/win.h
+-2585,7 +2585,8	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -2585,7 +2585,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-2585,7 +2585,8	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -2585,7 +2585,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-2585,7 +2585,8	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -2585,7 +2585,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-2599,7 +2599,8	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -2599,7 +2599,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-2599,7 +2599,8	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -2599,7 +2599,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-2602,7 +2602,8	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -2602,7 +2602,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-2656,7 +2656,8	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -2656,7 +2656,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-2656,7 +2656,8	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -2656,7 +2656,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-2670,7 +2670,8	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -2670,7 +2670,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-2670,7 +2670,8	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -2670,7 +2670,8 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-33,6 +34,7	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -33,6 +34,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-33,6 +34,7	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -33,6 +34,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-33,6 +34,7	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -33,6 +34,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-33,6 +34,7	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -33,6 +34,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-33,6 +34,7	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -33,6 +34,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-33,6 +34,7	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -33,6 +34,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-33,6 +34,7	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -33,6 +34,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-33,6 +34,7	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -33,6 +34,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-33,6 +34,7	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -33,6 +34,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-34,6 +35,7	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -34,6 +35,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-4,7 +4,7	0.8.3/st-ligatures-20200430-0.8.3.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-4,7 +4,7	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-4,7 +4,7	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-4,7 +4,7	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-4,7 +4,7	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-4,7 +4,7	28ad288/st-ligatures-20200428-28ad288.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-4,7 +4,7	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-4,7 +4,7	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-4,7 +4,7	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-4,7 +4,7	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+Acknowledgements	README.md	/^# Acknowledgements$/;"	c
+Dependencies	README.md	/^# Dependencies$/;"	c
+Example	README.md	/^# Example$/;"	c
+Ligature support patches for ST	README.md	/^# Ligature support patches for ST$/;"	c
+Usage	README.md	/^# Usage$/;"	c
+a/Makefile	0.8.3/st-ligatures-20200430-0.8.3.diff	/^--- a\/Makefile$/;"	m
+a/Makefile	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^--- a\/Makefile$/;"	m
+a/Makefile	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^--- a\/Makefile$/;"	m
+a/Makefile	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^--- a\/Makefile$/;"	m
+a/Makefile	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^--- a\/Makefile$/;"	m
+a/Makefile	28ad288/st-ligatures-20200428-28ad288.diff	/^--- a\/Makefile$/;"	m
+a/Makefile	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^--- a\/Makefile$/;"	m
+a/Makefile	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^--- a\/Makefile$/;"	m
+a/Makefile	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^--- a\/Makefile$/;"	m
+a/Makefile	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^--- a\/Makefile$/;"	m
+a/config.mk	0.8.3/st-ligatures-20200430-0.8.3.diff	/^--- a\/config.mk$/;"	m
+a/config.mk	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^--- a\/config.mk$/;"	m
+a/config.mk	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^--- a\/config.mk$/;"	m
+a/config.mk	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^--- a\/config.mk$/;"	m
+a/config.mk	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^--- a\/config.mk$/;"	m
+a/config.mk	28ad288/st-ligatures-20200428-28ad288.diff	/^--- a\/config.mk$/;"	m
+a/config.mk	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^--- a\/config.mk$/;"	m
+a/config.mk	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^--- a\/config.mk$/;"	m
+a/config.mk	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^--- a\/config.mk$/;"	m
+a/config.mk	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^--- a\/config.mk$/;"	m
+a/st.c	0.8.3/st-ligatures-20200430-0.8.3.diff	/^--- a\/st.c$/;"	m
+a/st.c	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^--- a\/st.c$/;"	m
+a/st.c	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^--- a\/st.c$/;"	m
+a/st.c	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^--- a\/st.c$/;"	m
+a/st.c	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^--- a\/st.c$/;"	m
+a/st.c	28ad288/st-ligatures-20200428-28ad288.diff	/^--- a\/st.c$/;"	m
+a/st.c	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^--- a\/st.c$/;"	m
+a/st.c	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^--- a\/st.c$/;"	m
+a/st.c	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^--- a\/st.c$/;"	m
+a/st.c	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^--- a\/st.c$/;"	m
+a/st.h	0.8.3/st-ligatures-20200430-0.8.3.diff	/^--- a\/st.h$/;"	m
+a/st.h	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^--- a\/st.h$/;"	m
+a/st.h	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^--- a\/st.h$/;"	m
+a/st.h	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^--- a\/st.h$/;"	m
+a/st.h	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^--- a\/st.h$/;"	m
+a/st.h	28ad288/st-ligatures-20200428-28ad288.diff	/^--- a\/st.h$/;"	m
+a/st.h	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^--- a\/st.h$/;"	m
+a/st.h	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^--- a\/st.h$/;"	m
+a/st.h	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^--- a\/st.h$/;"	m
+a/st.h	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^--- a\/st.h$/;"	m
+a/win.h	0.8.3/st-ligatures-20200430-0.8.3.diff	/^--- a\/win.h$/;"	m
+a/win.h	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^--- a\/win.h$/;"	m
+a/win.h	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^--- a\/win.h$/;"	m
+a/win.h	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^--- a\/win.h$/;"	m
+a/win.h	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^--- a\/win.h$/;"	m
+a/win.h	28ad288/st-ligatures-20200428-28ad288.diff	/^--- a\/win.h$/;"	m
+a/win.h	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^--- a\/win.h$/;"	m
+a/win.h	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^--- a\/win.h$/;"	m
+a/win.h	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^--- a\/win.h$/;"	m
+a/win.h	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^--- a\/win.h$/;"	m
+a/x.c	0.8.3/st-ligatures-20200430-0.8.3.diff	/^--- a\/x.c$/;"	m
+a/x.c	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^--- a\/x.c$/;"	m
+a/x.c	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^--- a\/x.c$/;"	m
+a/x.c	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^--- a\/x.c$/;"	m
+a/x.c	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^--- a\/x.c$/;"	m
+a/x.c	28ad288/st-ligatures-20200428-28ad288.diff	/^--- a\/x.c$/;"	m
+a/x.c	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^--- a\/x.c$/;"	m
+a/x.c	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^--- a\/x.c$/;"	m
+a/x.c	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^--- a\/x.c$/;"	m
+a/x.c	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^--- a\/x.c$/;"	m
+b/hb.c	0.8.3/st-ligatures-20200430-0.8.3.diff	/^+++ b\/hb.c$/;"	n
+b/hb.c	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^+++ b\/hb.c$/;"	n
+b/hb.c	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^+++ b\/hb.c$/;"	n
+b/hb.c	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^+++ b\/hb.c$/;"	n
+b/hb.c	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^+++ b\/hb.c$/;"	n
+b/hb.c	28ad288/st-ligatures-20200428-28ad288.diff	/^+++ b\/hb.c$/;"	n
+b/hb.c	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^+++ b\/hb.c$/;"	n
+b/hb.c	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^+++ b\/hb.c$/;"	n
+b/hb.c	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^+++ b\/hb.c$/;"	n
+b/hb.c	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^+++ b\/hb.c$/;"	n
+b/hb.h	0.8.3/st-ligatures-20200430-0.8.3.diff	/^+++ b\/hb.h$/;"	n
+b/hb.h	0.8.3/st-ligatures-alpha-20200430-0.8.3.diff	/^+++ b\/hb.h$/;"	n
+b/hb.h	0.8.3/st-ligatures-alpha-scrollback-20200430-0.8.3.diff	/^+++ b\/hb.h$/;"	n
+b/hb.h	0.8.3/st-ligatures-boxdraw-20200430-0.8.3.diff	/^+++ b\/hb.h$/;"	n
+b/hb.h	0.8.3/st-ligatures-scrollback-20200430-0.8.3.diff	/^+++ b\/hb.h$/;"	n
+b/hb.h	28ad288/st-ligatures-20200428-28ad288.diff	/^+++ b\/hb.h$/;"	n
+b/hb.h	28ad288/st-ligatures-alpha-20200428-28ad288.diff	/^+++ b\/hb.h$/;"	n
+b/hb.h	28ad288/st-ligatures-alpha-scrollback-20200428-28ad288.diff	/^+++ b\/hb.h$/;"	n
+b/hb.h	28ad288/st-ligatures-boxdraw-20200428-28ad288.diff	/^+++ b\/hb.h$/;"	n
+b/hb.h	28ad288/st-ligatures-scrollback-20200428-28ad288.diff	/^+++ b\/hb.h$/;"	n
