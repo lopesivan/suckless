@@ -1,0 +1,4 @@
+
+identity = lambda x: x
+
+
