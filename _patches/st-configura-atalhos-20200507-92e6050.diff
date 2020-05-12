@@ -1,0 +1,97 @@
+From 92e6050f9c9cb03cb084fe907f8ca2bcf92f8e58 Mon Sep 17 00:00:00 2001
+From: "Mr. Ivan" <lopesivan.ufrj@gmail.com>
+Date: Thu, 7 May 2020 14:01:52 -0300
+Subject: [PATCH] doing:  configura atalhos
+
+---
+ config.def.h | 65 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 62 insertions(+), 3 deletions(-)
+
+diff --git a/config.def.h b/config.def.h
+index 5013af9..f5d6963 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -268,11 +268,17 @@ static MouseShortcut mshortcuts[] = {
+ };
+
+ /* Internal keyboard shortcuts. */
+-#define MODKEY Mod1Mask
+-#define TERMMOD (ControlMask|ShiftMask)
++#define MODKEY Mod1Mask                 /* Alt        */
++#define TERMMOD (ControlMask|ShiftMask) /* ctrl+shift */
++
++static char *openurlcmd[] = {
++  "/bin/sh", "-c",
++  "xurls|dmenu -l 10|xargs -r xdg-open",
++  "externalpipe", NULL
++};
+
+ static Shortcut shortcuts[] = {
+-	/* mask                 keysym          function        argument */
++	/* mask                 keysym          function        argument
+ 	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
+ 	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
+ 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
+@@ -287,6 +293,59 @@ static Shortcut shortcuts[] = {
+ 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+ 	{ MODKEY,               XK_l,           copyurl,        {.i =  0} },
+ 	{ TERMMOD,              XK_I,           iso14755,       {.i =  0} },
++};*/
++  /* mask                 keysym          function        argument */
++	{XK_ANY_MOD,      XK_Break,       sendbreak,      {.i = 0}},
++  /*
++	{ ControlMask,    XK_Print,       toggleprinter,  {.i =  0} },
++	{ ShiftMask,      XK_Print,       printscreen,    {.i =  0} },
++	{ XK_ANY_MOD,     XK_Print,       printsel,       {.i =  0} },
++   */
++  /*
++   * Ctrl+Shift+PgUp
++	{ TERMMOD,        XK_Prior,       zoom,           {.f = +1} },
++   * Ctrl+Shift+PgDn
++	{ TERMMOD,        XK_Next,        zoom,           {.f = -1} },
++   */
++  /*
++   * Alt+K
++   * Alt+J
++   */
++	{MODKEY|ShiftMask, XK_K,          zoom,           {.f = +1}},
++	{MODKEY|ShiftMask, XK_J,          zoom,           {.f = -1}},
++  /*
++   * Ctrl+Shift+Home
++	{ TERMMOD,         XK_Home,       zoomreset,      {.f =  0} },
++   */
++	{MODKEY,           XK_Home,       zoomreset,      {.f = 0}},
++  /* copy-paste */
++  /*
++   * Alt+c
++   * Alt+v
++   * Alt+p
++   */
++	{MODKEY,           XK_c,          clipcopy,       {.i = 0}},
++	{MODKEY,           XK_v,          clippaste,      {.i = 0}},
++	{MODKEY,           XK_p,          selpaste,       {.i = 0}},
++  /* Shift+Insert */
++	{ShiftMask,        XK_Insert,     clippaste,      {.i = 0}},
++  /*
++   * Ctrl+Shift+C
++   * Ctrl+Shift+V
++   * Ctrl+Shift+Y
++	{ TERMMOD,         XK_C,          clipcopy,       {.i =  0} },
++	{ TERMMOD,         XK_V,          clippaste,      {.i =  0} },
++	{ TERMMOD,         XK_Y,          selpaste,       {.i =  0} },
++   */
++	{TERMMOD,          XK_Num_Lock,   numlock,        {.i = 0}},
++  /*
++   * Alt+l          Lista links e abre com o browser
++   * Alt+u          copia links na tela
++   * Ctrl+Shift+I   entra com o codigo ascii
++   */
++	{MODKEY,           XK_l,          externalpipe,   {.v = openurlcmd}},
++	{MODKEY,           XK_u,          copyurl,        {.i =  0} },
++	{TERMMOD,          XK_I,          iso14755,       {.i =  0} },
+ };
+
+ /*
+--
+2.7.4
+
