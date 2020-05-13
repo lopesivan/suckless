@@ -1,0 +1,57 @@
+From 3477305db637989850ab52602db5212ccbd0d17b Mon Sep 17 00:00:00 2001
+From: "Mr. Ivan" <lopesivan.ufrj@gmail.com>
+Date: Wed, 13 May 2020 01:45:45 -0300
+Subject: [PATCH] Atualiza o arquivo config.def.h
+
+---
+ config.def.h | 18 +++++++++++++++++-
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index 2b7ceb0..9c543b8 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -283,6 +283,12 @@ static char *openurlcmd[] = {
+   "externalpipe", NULL
+ };
+ 
++static char *gitcdcmd[] = {
++  "/bin/sh", "-c",
++  "git-cd",
++  "externalpipe", NULL
++};
++
+ static Shortcut shortcuts[] = {
+ 	/* mask                 keysym          function        argument
+ 	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
+@@ -316,9 +322,15 @@ static Shortcut shortcuts[] = {
+   /*
+    * Alt+K
+    * Alt+J
+-   */
+ 	{MODKEY|ShiftMask, XK_K,          zoom,           {.f = +1}},
+ 	{MODKEY|ShiftMask, XK_J,          zoom,           {.f = -1}},
++   */
++  /*
++   * Alt+K
++   * Alt+J
++   */
++	{MODKEY,           XK_equal,          zoom,           {.f = +1}},
++	{MODKEY,           XK_minus,         zoom,           {.f = -1}},
+   /*
+    * Ctrl+Shift+Home
+ 	{ TERMMOD,         XK_Home,       zoomreset,      {.f =  0} },
+@@ -352,6 +364,10 @@ static Shortcut shortcuts[] = {
+ 	{MODKEY,           XK_l,          externalpipe,   {.v = openurlcmd}},
+ 	{MODKEY,           XK_u,          copyurl,        {.i =  0} },
+ 	{TERMMOD,          XK_I,          iso14755,       {.i =  0} },
++  /*
++   * Shift+F1   comando `git cd`
++   */
++	{ShiftMask,        XK_F1,         externalpipe,   {.v = gitcdcmd}},
+ };
+ 
+ /*
+-- 
+2.7.4
+
