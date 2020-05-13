@@ -52,6 +52,7 @@ patches[$((i++))]=st-iso14755-0.8.3.diff
 patches[$((i++))]=st-autosync-0.8.3.diff
 patches[$((i++))]=st-appsync-0.8.3.diff
 patches[$((i++))]=st-configura-atalhos-20200507-92e6050.diff
+patches[$((i++))]=st-map-keys-1-20200513-3477305.diff
 
 # ----------------------------------------------------------------------------
 # Run!
