@@ -54,6 +54,7 @@ patches[$((i++))]=st-appsync-0.8.3.diff
 patches[$((i++))]=st-configura-atalhos-20200507-92e6050.diff
 patches[$((i++))]=st-map-keys-1-20200513-3477305.diff
 patches[$((i++))]=st-copy-paste-20200525-5f850a6.diff
+patches[$((i++))]=st-delete-key-fixed-20200525-374c536.diff
 # ----------------------------------------------------------------------------
 # Run!
 cd st
