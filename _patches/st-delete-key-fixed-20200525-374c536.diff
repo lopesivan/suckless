@@ -1,0 +1,25 @@
+From 374c536fbc8c14f0bf4e453680c583b8f34c6e6f Mon Sep 17 00:00:00 2001
+From: "Mr. Ivan" <lopesivan.ufrj@gmail.com>
+Date: Mon, 25 May 2020 04:44:57 -0300
+Subject: [PATCH] fix delete key
+
+---
+ config.def.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index d74fb73..dcb1aad 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -953,7 +953,7 @@ static Key key[] = {
+ 	{ XK_Menu,         Mod1Mask|ControlMask|ShiftMask, "\033[103;8u", 0,  0},
+ 	{ XK_Menu,         Mod1Mask|ShiftMask,             "\033[103;4u", 0,  0},
+ 	{ XK_Menu,         ShiftMask,                      "\033[103;2u", 0,  0},
+-	{ XK_Delete,       XK_NO_MOD,                      "\033[P",     -1,  0},
++	{ XK_Delete,       XK_NO_MOD,                      "\033[3~",    -1,  0},
+ 	{ XK_Delete,       XK_NO_MOD,                      "\033[3~",    +1,  0},
+ 	{ XK_Delete,       ControlMask|ShiftMask,          "\033[255;6u", 0,  0},
+ 	{ XK_Delete,       Mod1Mask,                       "\033[255;3u", 0,  0},
+-- 
+2.7.4
+
