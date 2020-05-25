@@ -1,0 +1,28 @@
+From 5f850a676716d397abb80f5319eacff32da9f761 Mon Sep 17 00:00:00 2001
+From: "Mr. Ivan" <lopesivan.ufrj@gmail.com>
+Date: Mon, 25 May 2020 04:05:24 -0300
+Subject: [PATCH] Atualiza o arquivo config.def.h
+
+---
+ config.def.h | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/config.def.h b/config.def.h
+index 9c543b8..d74fb73 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -344,9 +344,9 @@ static Shortcut shortcuts[] = {
+    */
+ 	{MODKEY,           XK_c,          clipcopy,       {.i = 0}},
+ 	{MODKEY,           XK_v,          clippaste,      {.i = 0}},
+-	{MODKEY,           XK_p,          selpaste,       {.i = 0}},
++	/* {MODKEY,           XK_p,          selpaste,       {.i = 0}}, */
+   /* Shift+Insert */
+-	{ShiftMask,        XK_Insert,     clippaste,      {.i = 0}},
++	{ShiftMask,        XK_Insert,     selpaste,      {.i = 0}},
+   /*
+    * Ctrl+Shift+C
+    * Ctrl+Shift+V
+-- 
+2.7.4
+
