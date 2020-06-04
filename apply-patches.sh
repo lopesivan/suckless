@@ -57,7 +57,7 @@ patches[$((i++))]=st-copy-paste-20200525-5f850a6.diff
 patches[$((i++))]=st-delete-key-fixed-20200525-374c536.diff
 #patches[$((i++))]=st-iprj-new-ignore-20200604-74a8baa.diff
 patches[$((i++))]=st-map-num-lock-20200604-c19dd82.diff
-
+patches[$((i++))]=st-map-tmux-20200604-f3d46ed.diff
 # ----------------------------------------------------------------------------
 # Run!
 cd st
