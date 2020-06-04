@@ -36,6 +36,7 @@ let i=1
 
 #patches[$((i++))]=st-clipboard-0.8.3.diff
 patches[$((i++))]=st-configura-fonte-20200422-19fb975.diff
+patches[$((i++))]=st-font2-20190326-f64c2f8.diff
 patches[$((i++))]=st-configura-temas-fixed-20200423-56705fb.diff
 patches[$((i++))]=st-hidecursor-0.8.2.diff
 patches[$((i++))]=st-bold-is-not-bright-0.8.2.diff
