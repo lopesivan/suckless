@@ -55,6 +55,9 @@ patches[$((i++))]=st-configura-atalhos-20200507-92e6050.diff
 patches[$((i++))]=st-map-keys-1-20200513-3477305.diff
 patches[$((i++))]=st-copy-paste-20200525-5f850a6.diff
 patches[$((i++))]=st-delete-key-fixed-20200525-374c536.diff
+#patches[$((i++))]=st-iprj-new-ignore-20200604-74a8baa.diff
+patches[$((i++))]=st-map-num-lock-20200604-c19dd82.diff
+
 # ----------------------------------------------------------------------------
 # Run!
 cd st

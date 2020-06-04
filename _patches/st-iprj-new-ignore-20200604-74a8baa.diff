@@ -1,0 +1,75 @@
+From 74a8baab96c076caac9dc01bc21877f026b3a3b3 Mon Sep 17 00:00:00 2001
+From: "Mr. Ivan" <lopesivan.ufrj@gmail.com>
+Date: Thu, 4 Jun 2020 02:02:19 -0300
+Subject: [PATCH] iprj new ignore
+
+---
+ config.def.h | 28 +++++++++++++++-------------
+ 1 file changed, 15 insertions(+), 13 deletions(-)
+
+diff --git a/config.def.h b/config.def.h
+index dcb1aad..87af261 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -289,6 +289,12 @@ static char *gitcdcmd[] = {
+   "externalpipe", NULL
+ };
+ 
++static char *gitiprjnewignorecmd[] = {
++  "/bin/sh", "-c",
++  "iprj new ignore",
++  "externalpipe", NULL
++};
++
+ static Shortcut shortcuts[] = {
+ 	/* mask                 keysym          function        argument
+ 	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
+@@ -326,14 +332,13 @@ static Shortcut shortcuts[] = {
+ 	{MODKEY|ShiftMask, XK_J,          zoom,           {.f = -1}},
+    */
+   /*
+-   * Alt+K
+-   * Alt+J
++   * Alt + <_/->
++   * Alt + <+/=>
+    */
+-	{MODKEY,           XK_equal,          zoom,           {.f = +1}},
++	{MODKEY,           XK_equal,         zoom,           {.f = +1}},
+ 	{MODKEY,           XK_minus,         zoom,           {.f = -1}},
+   /*
+-   * Ctrl+Shift+Home
+-	{ TERMMOD,         XK_Home,       zoomreset,      {.f =  0} },
++   * Alt+Home
+    */
+ 	{MODKEY,           XK_Home,       zoomreset,      {.f = 0}},
+   /* copy-paste */
+@@ -347,14 +352,7 @@ static Shortcut shortcuts[] = {
+ 	/* {MODKEY,           XK_p,          selpaste,       {.i = 0}}, */
+   /* Shift+Insert */
+ 	{ShiftMask,        XK_Insert,     selpaste,      {.i = 0}},
+-  /*
+-   * Ctrl+Shift+C
+-   * Ctrl+Shift+V
+-   * Ctrl+Shift+Y
+-	{ TERMMOD,         XK_C,          clipcopy,       {.i =  0} },
+-	{ TERMMOD,         XK_V,          clippaste,      {.i =  0} },
+-	{ TERMMOD,         XK_Y,          selpaste,       {.i =  0} },
+-   */
++
+ 	{TERMMOD,          XK_Num_Lock,   numlock,        {.i = 0}},
+   /*
+    * Alt+l          Lista links e abre com o browser
+@@ -368,6 +366,10 @@ static Shortcut shortcuts[] = {
+    * Shift+F1   comando `git cd`
+    */
+ 	{ShiftMask,        XK_F1,         externalpipe,   {.v = gitcdcmd}},
++  /*
++   * Shift+F2   comando `git cd`
++   */
++	{ShiftMask,        XK_F2,         externalpipe,   {.v = gitiprjnewignorecmd}},
+ };
+ 
+ /*
+-- 
+2.7.4
+
