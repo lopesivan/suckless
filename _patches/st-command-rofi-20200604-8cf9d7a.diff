@@ -1,0 +1,25 @@
+From 8cf9d7a99ddaaf18331958b514eac98f02127bca Mon Sep 17 00:00:00 2001
+From: "Mr. Ivan" <lopesivan.ufrj@gmail.com>
+Date: Thu, 4 Jun 2020 05:53:53 -0300
+Subject: [PATCH] associei o comando rofi em shift+F1
+
+---
+ config.def.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index 9f844d3..0a88726 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -286,7 +286,7 @@ static char *openurlcmd[] = {
+ 
+ static char *gitcdcmd[] = {
+   "/bin/sh", "-c",
+-  "git-cd",
++  "rofi -show run",
+   "externalpipe", NULL
+ };
+ 
+-- 
+2.7.4
+
