@@ -1,0 +1,54 @@
+From 6e91192c3ce94e08d40f644a4b61a5f924d79889 Mon Sep 17 00:00:00 2001
+From: "Mr. Ivan" <lopesivan.ufrj@gmail.com>
+Date: Wed, 10 Jun 2020 06:54:09 -0300
+Subject: [PATCH] final
+
+---
+ config.def.h | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/config.def.h b/config.def.h
+index 0a88726..bcd76f6 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -5,8 +5,8 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "InconsolataGo Nerd Font Mono:size=31:hinting=true:hintstyle=Regular:minspace=False";
+-static char *font2 = "Hack Nerd Font Mono:size=25:hinting=true:hintstyle=Regular";
++static char *font = "InconsolataGo Nerd Font Mono:size=20:hinting=true:hintstyle=Regular:minspace=False";
++static char *font2 = "Hack Nerd Font Mono:size=14:hinting=true:hintstyle=Regular";
+ static int borderpx = 2;
+ 
+ /*
+@@ -109,7 +109,7 @@ char *termname = "st-256color";
+ unsigned int tabspaces = 8;
+ 
+ /* Terminal colors (16 first used in escape sequence) */
+-#include "base16-st/default.h"
++//#include "base16-st/default.h"
+ //#include "base16-st/base16-harmonic-dark-theme.h"
+ //#include "base16-st/base16-unikitty-dark-theme.h"
+ //#include "base16-st/base16-material-darker-theme.h"
+@@ -192,7 +192,7 @@ unsigned int tabspaces = 8;
+ //#include "base16-st/base16-darktooth-theme.h"
+ //#include "base16-st/base16-atelier-seaside-light-theme.h"
+ //#include "base16-st/base16-atelier-forest-theme.h"
+-//#include "base16-st/base16-mellow-purple-theme.h"
++#include "base16-st/base16-mellow-purple-theme.h"
+ //#include "base16-st/base16-embers-theme.h"
+ //#include "base16-st/base16-classic-dark-theme.h"
+ //#include "base16-st/base16-macintosh-theme.h"
+@@ -286,7 +286,7 @@ static char *openurlcmd[] = {
+ 
+ static char *gitcdcmd[] = {
+   "/bin/sh", "-c",
+-  "rofi -show run",
++  "zpass",
+   "externalpipe", NULL
+ };
+ 
+-- 
+2.7.4
+
