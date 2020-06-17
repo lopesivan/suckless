@@ -81,5 +81,10 @@ seq 111 211|
     mv st st-$(sed -n "${n}s|^.*/||p" config.def.h| sed 's/.h.$//')
 done
 
+mkdir -p ~/.config/st/bin
+mv st-* ~/.config/st/bin
+
+git checkout master
+git branch -D doing
 # ----------------------------------------------------------------------------
 exit 0
