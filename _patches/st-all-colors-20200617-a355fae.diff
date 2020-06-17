@@ -1,0 +1,29 @@
+From a355fae5ad96224090f202895062f946b616d853 Mon Sep 17 00:00:00 2001
+From: "Mr. Ivan" <lopesivan.ufrj@gmail.com>
+Date: Wed, 17 Jun 2020 17:11:51 -0300
+Subject: [PATCH] all colors
+
+---
+ config.def.h | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/config.def.h b/config.def.h
+index 0a88726..2247946 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -108,12 +108,9 @@ char *termname = "st-256color";
+  */
+ unsigned int tabspaces = 8;
+ 
+-/* Terminal colors (16 first used in escape sequence) */
+-#include "base16-st/default.h"
+ //#include "base16-st/base16-harmonic-dark-theme.h"
+ //#include "base16-st/base16-unikitty-dark-theme.h"
+ //#include "base16-st/base16-material-darker-theme.h"
+-//---
+ //#include "base16-st/base16-grayscale-light-theme.h"
+ //#include "base16-st/base16-atelier-heath-theme.h"
+ //#include "base16-st/base16-zenburn-theme.h"
+-- 
+2.7.4
+

@@ -60,16 +60,26 @@ patches[$((i++))]=st-delete-key-fixed-20200525-374c536.diff
 patches[$((i++))]=st-map-num-lock-20200604-c19dd82.diff
 patches[$((i++))]=st-map-tmux-20200604-f3d46ed.diff
 patches[$((i++))]=st-command-rofi-20200604-8cf9d7a.diff
-# patches[$((i++))]=st-final-20200610-6e91192.diff
+patches[$((i++))]=st-all-colors-20200617-a355fae.diff
 # ----------------------------------------------------------------------------
 # Run!
 cd st
 git undo
+git checkout -b doing
+
 for id in `seq ${#patches[*]}`; do
   echo `tput bold tput setb 3`Applying patch`tput setaf 3` "${patches[id]}..."  `tput sgr0`
   patch -Np1 -i "$srcdir/${patches[id]}"
 done
 
-#make
+seq 111 211|
+  while read n; do
+    sed "${n}s/^..//" -i config.def.h
+    make
+    sed "${n}s|^|//|" -i config.def.h
+    rm config.h
+    mv st st-$(sed -n "${n}s|^.*/||p" config.def.h| sed 's/.h.$//')
+done
+
 # ----------------------------------------------------------------------------
 exit 0
