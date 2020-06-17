@@ -84,6 +84,7 @@ done
 mkdir -p ~/.config/st/bin
 mv st-* ~/.config/st/bin
 
+git undo
 git checkout master
 git branch -D doing
 # ----------------------------------------------------------------------------
