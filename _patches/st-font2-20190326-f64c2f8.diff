@@ -18,7 +18,7 @@ index 482901e..88eee0f 100644
 @@ -6,6 +6,7 @@
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
   */
- static char *font = "InconsolataGo Nerd Font Mono:size=31:hinting=true:hintstyle=Regular:minspace=False";
+ static char *font = "InconsolataLGC Nerd Font Mono:size=25:hinting=true:hintstyle=Regular:minspace=False";
 +static char *font2 = "Hack Nerd Font Mono:size=25:hinting=true:hintstyle=Regular";
  static int borderpx = 2;
 

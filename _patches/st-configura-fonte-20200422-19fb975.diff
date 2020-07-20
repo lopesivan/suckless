@@ -16,7 +16,7 @@ index 0895a1f..43b9640 100644
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
   */
 -static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-+static char *font = "InconsolataGo Nerd Font Mono:size=31:hinting=true:hintstyle=Regular:minspace=False";
++static char *font = "InconsolataLGC Nerd Font Mono:size=25:hinting=true:hintstyle=Regular:minspace=False";
  static int borderpx = 2;
 
  /*

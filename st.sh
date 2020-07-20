@@ -65,6 +65,7 @@ patches[$((i++))]=st-command-rofi-20200604-8cf9d7a.diff
 # Run!
 cd st
 git undo
+git co -b doing
 for id in `seq ${#patches[*]}`; do
   echo `tput bold tput setb 3`Applying patch`tput setaf 3` "${patches[id]}..."  `tput sgr0`
   patch -Np1 -i "$srcdir/${patches[id]}"
