@@ -1,0 +1,25 @@
+From 72f11176ac477d2846ef334eae3aeb9cd1b8b2cb Mon Sep 17 00:00:00 2001
+From: "Mr. Ivan" <lopesivan.ufrj@gmail.com>
+Date: Mon, 20 Jul 2020 05:28:18 -0300
+Subject: [PATCH] Atualiza o arquivo config.def.h
+
+---
+ config.def.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index d2b8eea..3275ff3 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "InconsolataLGC Nerd Font Mono:size=25:hinting=true:hintstyle=Regular:minspace=False";
++static char *font = "JetBrainsMono Nerd Font Mono:size=25:hinting=true:hintstyle=Regular:minspace=False";
+ static char *font2 = "Hack Nerd Font Mono:size=25:hinting=true:hintstyle=Regular";
+ static int borderpx = 2;
+ 
+-- 
+2.17.1
+
