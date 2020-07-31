@@ -61,6 +61,7 @@ patches[$((i++))]=st-map-num-lock-20200604-c19dd82.diff
 patches[$((i++))]=st-map-tmux-20200604-f3d46ed.diff
 patches[$((i++))]=st-command-rofi-20200604-8cf9d7a.diff
 # patches[$((i++))]=st-final-20200610-6e91192.diff
+patches[$((i++))]=st-configura-fonte-JoyPixels20200731-bbb8f39.diff
 
 # fonte JetbrainsMono
 #patches[$((i++))]=st-configura-fonte-jetbrainsMono20200720-72f1117.diff
