@@ -64,7 +64,7 @@ patches[$((i++))]=st-command-rofi-20200604-8cf9d7a.diff
 
 # fonte JoyPixels
 patches[$((i++))]=st-configura-fonte-JoyPixels20200731-bbb8f39.diff
-
+patches[$((i++))]=st-configura-remove-mapeamentos-desnecessarios20200803-1049f5f.diff
 # fonte JetbrainsMono
 #patches[$((i++))]=st-configura-fonte-jetbrainsMono20200720-72f1117.diff
 
