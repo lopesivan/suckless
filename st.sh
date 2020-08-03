@@ -44,7 +44,7 @@ patches[$((i++))]=st-vertcenter-20180320-6ac8c8a.diff
 patches[$((i++))]=st-workingdir-20200317-51e19ea.diff
 patches[$((i++))]=st-anysize-0.8.2.diff
 patches[$((i++))]=st-boxdraw_v2-0.8.3.diff
-patches[$((i++))]=st-ligatures-boxdraw-20200430-0.8.3.diff
+#patches[$((i++))]=st-ligatures-boxdraw-20200430-0.8.3.diff
 patches[$((i++))]=st-fix-keyboard-input-20180605-dc3b5ba.diff
 patches[$((i++))]=st-externalpipe-0.8.2.diff
 patches[$((i++))]=st-spoiler-20180309-c5ba9c0.diff
@@ -61,10 +61,13 @@ patches[$((i++))]=st-map-num-lock-20200604-c19dd82.diff
 patches[$((i++))]=st-map-tmux-20200604-f3d46ed.diff
 patches[$((i++))]=st-command-rofi-20200604-8cf9d7a.diff
 # patches[$((i++))]=st-final-20200610-6e91192.diff
+
+# fonte JoyPixels
 patches[$((i++))]=st-configura-fonte-JoyPixels20200731-bbb8f39.diff
 
 # fonte JetbrainsMono
 #patches[$((i++))]=st-configura-fonte-jetbrainsMono20200720-72f1117.diff
+
 # ----------------------------------------------------------------------------
 # Run!
 cd st
